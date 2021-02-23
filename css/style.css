@@ -1,0 +1,28 @@
+.class-gallery {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.class-li {
+  max-height: 300px;
+  width: auto;
+}
+
+.class-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#validation-input {
+  border: 6px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
